@@ -1,0 +1,18 @@
+{
+  "name": "distance-and-time-api",
+  "version": "1.0.0",
+  "description": "A simple API that return country, timezone info and the time difference in hours between two geolocations.",
+  "main": "app.js",
+  "repository": "https://github.com/NateRiv3r/distance-and-time-api.git",
+  "author": "NateRiv3r",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
